@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 12 15:22:56 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (81 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngflags.Flag6.loginMethod()'><b>loginMethod</b><br>Test class: testngflags.Flag6<br/>
+<a href="#Output-1561063579" onClick='toggleBox("Output-1561063579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1561063579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1561063579">
+logging in....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngflags.Flag6@65f095f8</td></tr>
+<tr>
+<td title='testngflags.Flag6.logoutMethod()'><b>logoutMethod</b><br>Test class: testngflags.Flag6<br/>
+<a href="#Output-1363793720" onClick='toggleBox("Output-1363793720", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1363793720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1363793720">
+logging out....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngflags.Flag6@65f095f8</td></tr>
+<tr>
+<td title='testngflags.Flag6.createUser()'><b>createUser</b><br>Test class: testngflags.Flag6<br/>
+<a href="#Output-1392794732" onClick='toggleBox("Output-1392794732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1392794732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1392794732">
+creating user....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngflags.Flag6@65f095f8</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[logging in....]]>
+    </line>
+    <line>
+      <![CDATA[creating user....]]>
+    </line>
+    <line>
+      <![CDATA[logging out....]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-12T15:22:56 IST" name="Default suite" finished-at="2022-11-12T15:22:56 IST" duration-ms="81">
+    <groups>
+    </groups>
+    <test started-at="2022-11-12T15:22:56 IST" name="Default test" finished-at="2022-11-12T15:22:56 IST" duration-ms="81">
+      <class name="testngflags.Flag6">
+        <test-method signature="loginMethod()[pri:0, instance:testngflags.Flag6@65f095f8]" started-at="2022-11-12T15:22:56 IST" name="loginMethod" finished-at="2022-11-12T15:22:56 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logging in....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method signature="createUser()[pri:0, instance:testngflags.Flag6@65f095f8]" started-at="2022-11-12T15:22:56 IST" name="createUser" finished-at="2022-11-12T15:22:56 IST" depends-on-methods="testngflags.Flag6.loginMethod" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[creating user....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="logoutMethod()[pri:1, instance:testngflags.Flag6@65f095f8]" started-at="2022-11-12T15:22:56 IST" name="logoutMethod" finished-at="2022-11-12T15:22:56 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logging out....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+      </class> <!-- testngflags.Flag6 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
